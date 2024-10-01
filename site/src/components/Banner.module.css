@@ -1,0 +1,45 @@
+.banner {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-around; /* Evenly space out items */
+  flex-direction: row; /* Keep items in a row */
+  padding-left: 112px; /* Add some padding for better spacing */
+  padding-right: 112px;
+  padding-top: 4px;
+  gap: 100px; /* Add gap between items for better spacing control */
+}
+.logo {
+  border-width: 2px;
+  border-color: grey;
+  border-radius: 6px;
+  border-style: solid;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  height: 9%;
+  width: 9%;
+}
+.logo:hover {
+  border-color: #646cff;
+}
+.logo:focus,
+.logo:focus-visible {
+  outline: auto 4px auto -webkit-focus-ring-color;
+}
+.socialItem {
+  font-family: "Arial", sans-serif;
+  font-size: 35px; /* Example styling for social media items */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer; /* Make them look clickable */
+  transition: color 0.25s; /* Add some hover effect */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #646cff; /* Change color on hover */
+}

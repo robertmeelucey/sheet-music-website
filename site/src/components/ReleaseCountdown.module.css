@@ -1,0 +1,28 @@
+.timerContainer {
+  width: 30%; /* Responsive width */
+  aspect-ratio: 4 / 3; /* Aspect ratio of 1:1 (a square) */
+
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #e2e3ff;
+}
+
+.countdown {
+  font-size: 75px; /* Example styling for social media items */
+  font-family: "Arial", sans-serif;
+}
+
+.title {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
