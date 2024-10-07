@@ -1,12 +1,12 @@
 .banner {
   display: flex;
-  align-items: center; /* Center items vertically */
-  justify-content: space-around; /* Evenly space out items */
-  flex-direction: row; /* Keep items in a row */
-  padding-left: 90px; /* Add some padding for better spacing */
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 90px;
   padding-right: 112px;
   padding-top: 4px;
-  gap: 100px; /* Add gap between items for better spacing control */
+  gap: 100px;
 }
 .logo {
   border-width: 2px;
@@ -29,17 +29,17 @@
 }
 .socialItem {
   font-family: "Arial", sans-serif;
-  font-size: 35px; /* Example styling for social media items */
+  font-size: 35px;
 }
 
 a {
   text-decoration: none;
   color: black;
-  cursor: pointer; /* Make them look clickable */
-  transition: color 0.25s; /* Add some hover effect */
+  cursor: pointer;
+  transition: color 0.25s;
   text-decoration: none;
 }
 
 a:hover {
-  color: #646cff; /* Change color on hover */
+  color: #646cff;
 }

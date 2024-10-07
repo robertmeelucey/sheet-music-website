@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./Banner.module.css";
-import musicLogo from "../assets/musicbyrobert.png"; // Corrected path and usage
+import musicLogo from "../assets/musicbyrobert.png";
 
 function Banner() {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ function Banner() {
         </a>
       </h1>
       <img
-        src={musicLogo} // Use the imported image
+        src={musicLogo}
         className={styles.logo}
         alt="Music Logo"
         onClick={() => navigate("/")}

@@ -25,15 +25,15 @@
 }
 
 .customInput {
-  width: 100%; /* Full width */
-  max-width: 300px; /* Max width for the input */
-  padding: 10px 15px; /* Padding for inner spacing */
-  font-size: 16px; /* Font size */
-  border: 2px solid #ccc; /* Border style */
-  border-radius: 5px; /* Rounded corners */
-  outline: none; /* Remove default outline */
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow */
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
   margin: 10px;
 }
 
@@ -44,9 +44,9 @@
   flex-direction: column;
   align-items: center;
   height: 50%;
-  width: 100%; /* Full width of the parent container */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 .listItem {
   width: 100%;
