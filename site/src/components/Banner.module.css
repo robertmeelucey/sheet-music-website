@@ -3,7 +3,7 @@
   align-items: center; /* Center items vertically */
   justify-content: space-around; /* Evenly space out items */
   flex-direction: row; /* Keep items in a row */
-  padding-left: 112px; /* Add some padding for better spacing */
+  padding-left: 90px; /* Add some padding for better spacing */
   padding-right: 112px;
   padding-top: 4px;
   gap: 100px; /* Add gap between items for better spacing control */

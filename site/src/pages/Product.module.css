@@ -1,0 +1,37 @@
+.buyBtn {
+  border-width: 2px;
+  border-color: grey;
+  border-radius: 6px;
+  border-style: solid;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: border-color color 0.25s;
+  height: 9%;
+  width: 12%;
+  font-family: "Arial", sans-serif;
+  font-size: 35px; /* Example styling for social media items */
+  color: black;
+}
+.buyBtn:hover {
+  border-color: #646cff;
+}
+.buyBtn:focus,
+.buyBtn:focus-visible {
+  outline: auto 4px auto -webkit-focus-ring-color;
+}
+
+.title {
+  font-family: "Arial", sans-serif;
+  font-size: 35px; /* Example styling for social media items */
+  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

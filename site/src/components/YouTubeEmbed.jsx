@@ -2,9 +2,9 @@ const YouTubeEmbed = () => {
   return (
     <div>
       <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/mhVfTaa7HEk?si=TPZBtoZH3w-R9vxt"
+        width="800"
+        height="450"
+        src="https://www.youtube.com/embed/3FiZc7kbrWw?si=vv5rtdT4Q4J6i8v5"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="Embedded YouTube"

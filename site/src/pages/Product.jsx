@@ -3,6 +3,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { useState } from "react";
 import Banner from "../components/Banner";
 import YouTubeEmbed from "../components/YouTubeEmbed";
+import styles from "./Product.module.css";
 
 const list = [
   {
@@ -43,6 +44,7 @@ function Product() {
     price: list.find((item) => item.id === id).priceId,
     quantity: 1,
   };
+  const name = list.find((item) => item.id === id).title;
 
   const checkoutOptions = {
     lineItems: [item],
@@ -66,13 +68,19 @@ function Product() {
   return (
     <div>
       <Banner />
-      <h1>Sheet music id = {id}</h1>
-      <div>
-        <YouTubeEmbed />
+      <div className={styles.container}>
+        <h1 className={styles.title}>{name}</h1>
+        <div>
+          <YouTubeEmbed />
+        </div>
+        <button
+          onClick={redirectToCheckout}
+          disabled={isLoading}
+          className={styles.buyBtn}
+        >
+          {isLoading ? "Loading..." : "Buy"}
+        </button>
       </div>
-      <button onClick={redirectToCheckout} disabled={isLoading}>
-        {isLoading ? "Loading..." : "Buy"}
-      </button>
     </div>
   );
 }

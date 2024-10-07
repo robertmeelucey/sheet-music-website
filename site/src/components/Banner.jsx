@@ -12,16 +12,16 @@ function Banner() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          insta
+          instagram
         </a>
       </h1>
       <h1 className={styles.socialItem}>
         <a
-          href="https://www.linkedin.com/in/robertmeelucey"
+          href="https://open.spotify.com/user/robertmeelucey?si=e41960c93feb467c"
           target="_blank"
           rel="noopener noreferrer"
         >
-          linkedin
+          spotify
         </a>
       </h1>
       <img
@@ -30,13 +30,14 @@ function Banner() {
         alt="Music Logo"
         onClick={() => navigate("/")}
       />
+
       <h1 className={styles.socialItem}>
         <a
-          href="https://open.spotify.com/user/robertmeelucey?si=e41960c93feb467c"
+          href="https://www.linkedin.com/in/robertmeelucey"
           target="_blank"
           rel="noopener noreferrer"
         >
-          spotify
+          linkedin
         </a>
       </h1>
       <h1 className={styles.socialItem}>
